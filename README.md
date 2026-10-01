@@ -6,3 +6,7 @@ This is my personal portfolio website created for GIT 215. It includes informati
 - About - about.html
 - Projects - projects.html
 - Contact - contact.html
+
+## Published Website
+
+https://blamowatkins.github.io/portfolio/
