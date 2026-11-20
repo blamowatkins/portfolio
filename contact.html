@@ -1,40 +1,64 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | Blamo Watkins</title>
-<link rel="stylesheet" href="styles.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find Blamo Watkins on GitHub and CodePen for web development, graphic design, and technology projects.">
+    <meta name="theme-color" content="#211b30">
+    <title>Contact | Blamo Watkins</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Contact Me</h1>
-    <p>Get in touch with me about opportunities, projects, or collaborations.</p>
-  </header>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+    <header class="site-header">
+        <div class="shell header-inner">
+            <a class="wordmark" href="index.html">
+                <span class="brand-mark" aria-hidden="true">BW</span>
+                <span>Blamo Watkins</span>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<main>
-    <h2>Let's Connect</h2>
-    <p>I'm interested in web development, graphic design, and technology opportunities.</p>
+    <main id="main-content" tabindex="-1">
+        <section class="page-intro">
+            <div class="shell">
+                <h1>Let’s connect</h1>
+                <p class="lede">I’m interested in opportunities and collaborations in web development, graphic design, and technology.</p>
+            </div>
+        </section>
 
-    <h2>Professional Profiles</h2>
-  <ul>
-    <li><a href="https://github.com/blamowatkins">GitHub Profile</a></li>
-    <li><a href="https://codepen.io/Cheerio40">CodePen Profile</a></li>
-  </ul>
-</main>
-<footer>
-    <p>&copy; 2026 Blamo Watkins. All rights reserved.</p>
-</footer>
+        <section class="section" aria-label="Professional profiles">
+            <div class="shell contact-grid">
+                <article class="contact-card">
+                    <h2>GitHub</h2>
+                    <p>Browse my repositories to see how I build and organize my web projects.</p>
+                    <a class="button button-primary" href="https://github.com/blamowatkins">View my GitHub</a>
+                </article>
+
+                <article class="contact-card">
+                    <h2>CodePen</h2>
+                    <p>Find me on CodePen as @Cheerio40.</p>
+                    <a class="button button-secondary" href="https://codepen.io/Cheerio40">View my CodePen</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="shell footer-inner">
+            <small>© 2026 Blamo Watkins</small>
+            <a href="https://github.com/blamowatkins">GitHub</a>
+        </div>
+    </footer>
 </body>
 </html>

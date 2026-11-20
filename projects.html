@@ -1,39 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Blamo Watkins</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore two web development projects by Blamo Watkins: Watkins Bros Detailing and Copper City Makerspace.">
+  <meta name="theme-color" content="#211b30">
+  <title>Projects | Blamo Watkins</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>My Projects</h1>
-    <p>Explore some of the web development and design projects I have created.</p>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="index.html"><span class="brand-mark" aria-hidden="true">BW</span><span>Blamo Watkins</span></a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <header class="page-intro">
+      <div class="shell">
+        <h1>Projects</h1>
+        <p class="lede">Two coursework builds that show how I organize information, design responsive layouts, and make it easier for visitors to find what they need.</p>
+      </div>
     </header>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+    <section class="section case-section" aria-label="Project case studies">
+      <div class="shell case-list">
+        <article class="case-study" id="detailing" aria-labelledby="detailing-title">
+          <div class="project-visual detailing-visual">
+            <img src="assets/detailing.webp" alt="Watkins Bros Detailing homepage with booking buttons over a photo of cars in a driveway." width="1152" height="760">
+          </div>
+          <div class="case-copy">
+            <p class="eyebrow">Service website</p>
+            <h2 id="detailing-title">Watkins Bros Detailing</h2>
+            <p>I built a site for a mobile auto detailing business so visitors could compare interior, exterior, and full-detail packages and find the booking request form.</p>
+            <h3>What I built</h3>
+            <p>I organized service prices around the packages, added a before-and-after gallery, and grouped the content into sections visitors can reach from the main navigation.</p>
+            <ul class="tag-list" aria-label="Skills used for Watkins Bros Detailing">
+              <li>Semantic HTML</li>
+              <li>Responsive CSS</li>
+              <li>Form markup</li>
+            </ul>
+            <div class="actions">
+              <a class="button button-primary" href="https://blamowatkins.github.io/WATKINS-4-build/" aria-label="Visit live site for Watkins Bros Detailing">Visit live site</a>
+              <a class="button button-secondary" href="https://github.com/blamowatkins/WATKINS-4-build" aria-label="View source for Watkins Bros Detailing">View source</a>
+            </div>
+          </div>
+        </article>
 
-<main>
-    <h2>Featured Projects</h2>
-    <p>Here you can explore some of my web development and design work.</p>
-    <h3>Mobile Auto Detailing Website</h3>
-    <p>A responsive website created for a mobile auto detailing business. This project helped me practice organizing content with semantic HTML, styling pages with CSS, creating responsive layouts, and presenting services and pricing in a clear format.</p>
+        <article class="case-study" id="makerspace" aria-labelledby="makerspace-title">
+          <div class="project-visual makerspace-visual">
+            <img src="assets/makerspace.webp" alt="Copper City Makerspace’s Membership &amp; Visit page with cards for orientation, hours, and volunteering." width="1152" height="760" loading="lazy">
+          </div>
+          <div class="case-copy">
+            <p class="eyebrow">Multi-page website</p>
+            <h2 id="makerspace-title">Copper City Makerspace</h2>
+            <p>I built a site that introduces a community workshop and gives prospective members a way to find tools, classes, and information about joining or visiting.</p>
+            <h3>What I built</h3>
+            <p>In this course code-along, I organized content across About, Workshops &amp; Tools, and Membership &amp; Visit pages. I connected them with relative links and used the shared course stylesheet by Christina Carrasquilla for a consistent layout.</p>
+            <ul class="tag-list" aria-label="Skills used for Copper City Makerspace">
+              <li>Multi-page navigation</li>
+              <li>Shared CSS</li>
+              <li>Responsive design</li>
+            </ul>
+            <div class="actions">
+              <a class="button button-primary" href="https://blamowatkins.github.io/5-Code-Along/" aria-label="Visit live site for Copper City Makerspace">Visit live site</a>
+              <a class="button button-secondary" href="https://github.com/blamowatkins/5-Code-Along" aria-label="View source for Copper City Makerspace">View source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
 
-    <h3>Copper City Makerspace Website</h3>
-    <p>A multi-page website created to practice organizing content across multiple HTML pages with consistent navigation and shared CSS. This project helped me strengthen my skills with relative links, semantic HTML, page organization, and responsive web design.</p>
-</main>
-<footer>
-    <p>&copy; 2026 Blamo Watkins. All rights reserved.</p>
-</footer>
-
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <small>&copy; 2026 Blamo Watkins</small>
+      <a href="https://github.com/blamowatkins">GitHub</a>
+    </div>
+  </footer>
 </body>
 </html>
-
